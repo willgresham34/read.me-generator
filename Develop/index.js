@@ -75,10 +75,10 @@ function writeToFile(res) {
    fs.writeFile('README.md',
 
     `
-#${res.title}
+# ${res.title}
 ${res.license}
 
-##Description
+## Description
 ${res.Description}
 
 ## Table Of Contents
@@ -89,22 +89,22 @@ ${res.Description}
 [Test](#test)
 [Questions](#questions)
 
-##Installation
+## Installation
 ${res.installs}
 
-##Usage
+## Usage
 ${res.usage}
 
-##License 
+## License 
 ${res.license}
 
-##Contributing
+## Contributing
 ${res.contribute}
 
-##Tests 
+## Tests 
 ${res.test}
 
-##Questions 
+## Questions 
 [GitHub: ${res.gitUser}](https://github.com/${res.gitUser}) <br> 
 [Email](mailto:${res.email})
     

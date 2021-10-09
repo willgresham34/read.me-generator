@@ -1,8 +1,8 @@
 
-#Weather Dashboard
+# Password Generator
 MIT (Free use with preservation of copyright/license notices)
 
-##Description
+## Description
 undefined
 
 ## Table Of Contents
@@ -13,22 +13,22 @@ undefined
 [Test](#test)
 [Questions](#questions)
 
-##Installation
-node
+## Installation
+none
 
-##Usage
-It was made to be used as a weather location checker
+## Usage
+Used to help people who struggle creating passwords
 
-##License 
+## License 
 MIT (Free use with preservation of copyright/license notices)
 
-##Contributing
-fork and make pull request
+## Contributing
+none needed
 
-##Tests 
+## Tests 
 run test
 
-##Questions 
+## Questions 
 [GitHub: willgresham34](https://github.com/willgresham34) <br> 
 [Email](mailto:willgresham34@gmail.com)
     
