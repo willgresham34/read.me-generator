@@ -75,40 +75,40 @@ function writeToFile(res) {
    fs.writeFile('README.md',
 
     `
-    # ${res.title}
-    ${res.license}
+#${res.title}
+${res.license}
 
-    ## Description
-    ${res.Description}
+##Description
+${res.Description}
 
-    ## Table Of Contents
-    [Install](#installs)
-    [Usage](#usage)
-    [license](#license)
-    [Contributing](#contributing)
-    [Test](#test)
-    [Questions](#questions)
+## Table Of Contents
+[Install](#installs)
+[Usage](#usage)
+[license](#license)
+[Contributing](#contributing)
+[Test](#test)
+[Questions](#questions)
 
-    ## Installation
-    ${res.installs}
+##Installation
+${res.installs}
 
-    ## Usage
-    ${res.usage}
+##Usage
+${res.usage}
 
-    ## License 
-    ${res.license}
+##License 
+${res.license}
 
-    ## Contributing
-    ${res.contribute}
+##Contributing
+${res.contribute}
 
-    ## Tests 
-    ${res.test}
+##Tests 
+${res.test}
 
-    ## Questions 
-    [GitHub: ${res.gitUser}](https://github.com/${res.gitUser}) <br> 
-    [Email](mailto:${res.email})
+##Questions 
+[GitHub: ${res.gitUser}](https://github.com/${res.gitUser}) <br> 
+[Email](mailto:${res.email})
     
-    ` ,
+` ,
     (err) => err ? console.error(err) : console.log('Success!')
     
     )

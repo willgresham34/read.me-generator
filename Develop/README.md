@@ -1,35 +1,34 @@
 
-    # test
-    MIT (Free use with preservation of copyright/license notices)
+#Weather Dashboard
+MIT (Free use with preservation of copyright/license notices)
 
-    ## Description
-    undefined
+##Description
+undefined
 
-    ## Table Of Contents
-    [Install](#installs)
-    [Usage](#usage)
-    [license](#license)
-    [Contributing](#contributing)
-    [Test](#test)
-    [Questions](#questions)
+## Table Of Contents
+[Install](#installs)
+[Usage](#usage)
+[license](#license)
+[Contributing](#contributing)
+[Test](#test)
+[Questions](#questions)
 
-    ## Installation
-    test
+##Installation
+node
 
-    ## Usage
-    tset
+##Usage
+It was made to be used as a weather location checker
 
-    ## License 
-    MIT (Free use with preservation of copyright/license notices)
+##License 
+MIT (Free use with preservation of copyright/license notices)
 
-    ## Contributing
-    test
+##Contributing
+fork and make pull request
 
-    ## Tests 
-    test
+##Tests 
+run test
 
-    ## Questions 
-    [GitHub: test](https://github.com/test) <br> 
-    [Email](mailto:tes)
-    
+##Questions 
+[GitHub: willgresham34](https://github.com/willgresham34) <br> 
+[Email](mailto:willgresham34@gmail.com)
     
