@@ -14,10 +14,10 @@
     [Questions](#questions)
 
     ## Installation
-    tset
+    test
 
     ## Usage
-    test
+    tset
 
     ## License 
     MIT (Free use with preservation of copyright/license notices)
@@ -26,10 +26,10 @@
     test
 
     ## Tests 
-    tset
+    test
 
     ## Questions 
-    [GitHub: tset](https://github.com/tset) <br> 
-    [Email](mailto:test)
+    [GitHub: test](https://github.com/test) <br> 
+    [Email](mailto:tes)
     
     

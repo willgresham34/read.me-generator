@@ -4,7 +4,8 @@ const inquirer = require('inquirer');
 
 
 // TODO: Create an array of questions for user input
-const questions = inquirer.prompt([
+const questions = () =>
+ inquirer.prompt([
        {
             type: 'input',
             message:'What is the Title of your project?',
@@ -69,13 +70,13 @@ const questions = inquirer.prompt([
     ]);
 
 // TODO: Create a function to write README file
-function writeToFile(README, data) {
+function writeToFile(res) {
 
-    fs.writeFile(README.md,
+   fs.writeFile('README.md',
 
     `
     # ${res.title}
-    ${license}
+    ${res.license}
 
     ## Description
     ${res.Description}
@@ -95,7 +96,7 @@ function writeToFile(README, data) {
     ${res.usage}
 
     ## License 
-    ${currents}
+    ${res.license}
 
     ## Contributing
     ${res.contribute}
@@ -106,14 +107,20 @@ function writeToFile(README, data) {
     ## Questions 
     [GitHub: ${res.gitUser}](https://github.com/${res.gitUser}) <br> 
     [Email](mailto:${res.email})
-    `
-    ,
-    // .catch(err => console.error(err)) 
+    
+    ` ,
+    (err) => err ? console.error(err) : console.log('Success!')
+    
     )
 }
 
 // TODO: Create a function to initialize app
 function init() {
+    questions()
+        .then(res => {
+            writeToFile(res);
+        }) 
+        .catch(err => console.error(err)) 
 
 }
 
