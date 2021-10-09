@@ -70,8 +70,7 @@ const questions = inquirer.prompt([
 
 // TODO: Create a function to write README file
 function writeToFile(README, data) {
-    let data = 
-    
+
     fs.writeFile(README.md,
 
     `
@@ -111,7 +110,7 @@ function writeToFile(README, data) {
     ,
     // .catch(err => console.error(err)) 
     )
-// }
+}
 
 // TODO: Create a function to initialize app
 function init() {
