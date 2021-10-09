@@ -29,16 +29,18 @@ const questions = () =>
             message:'What license do you have?',
             name:'license',
             choices: [
-                'MIT (Free use with preservation of copyright/license notices)',
-                'GNU (Free use but contributors must waive right to patents. Copyright/license notices must be preserved)',
-                'The Unlicense (No conditions, dedicates works to public domain)',     
+                'MIT',
+                'GNU',
+                'The Unlicense',
+                'Apache',
+                'Mozilla Public License',     
                 ],
             default: 'MIT'
         },
 
         {
             type: 'input',
-            message: 'What is the use for this project?',
+            message: 'Please add a photo to show usage of your application',
             name: 'usage',
         },
 
@@ -76,18 +78,18 @@ function writeToFile(res) {
 
     `
 # ${res.title}
-${res.license}
+${displayLicense}
 
 ## Description
 ${res.Description}
 
 ## Table Of Contents
-[Install](#installs)
-[Usage](#usage)
-[license](#license)
-[Contributing](#contributing)
-[Test](#test)
-[Questions](#questions)
+* [Install](#installs)
+* [Usage](#usage)
+* [license](#license)
+* [Contributing](#contributing)
+* [Test](#test)
+* [Questions](#questions)
 
 ## Installation
 ${res.installs}
@@ -96,7 +98,7 @@ ${res.installs}
 ${res.usage}
 
 ## License 
-${res.license}
+${displayLicense}
 
 ## Contributing
 ${res.contribute}
@@ -118,6 +120,24 @@ ${res.test}
 function init() {
     questions()
         .then(res => {
+            const MIT = '[![License](https://https://img.shields.io/badge/License-MIT-green)](https://opensource.org/licenses/MIT)';
+            const GNU = '[![License](https://img.shields.io/badge/License-GNU-red)](https://www.gnu.org/licenses/licenses.html)';
+            const Unlicense = '[![License](https://img.shields.io/badge/License-Unlicense-blue)](https://unlicense.org/)';
+            const Apache ='[![License](https://img.shields.io/badge/License-Apache-blueviolet)](http://www.apache.org/licenses/)';
+            const MZP = '[![License](https://img.shields.io/badge/License-Mozilla%20Public-yellow)](https://www.mozilla.org/en-US/MPL/)';
+            let pickedLicense = res.license
+            console.log(pickedLicense);
+            if (pickedLicense === 'MIT') {
+                var displayLicense = MIT;
+            } else if (pickedLicense === 'GNU') {
+                var displayLicense = GNU;
+            } else if (pickedLicense === 'The Unlicense') {
+                var displayLicense = Unlicense
+            } else if (pickedLicense === 'Apache') {
+                var displayLicense = Apache;
+            } else {
+                var displayLicense = MZP;
+            }
             writeToFile(res);
         }) 
         .catch(err => console.error(err)) 
