@@ -1,9 +1,9 @@
 
-# ;laskdjfg
-[![License](https://https://img.shields.io/badge/License-MIT-green)](https://opensource.org/licenses/MIT)
+# Teammatez 
+[![License](https://img.shields.io/badge/License-Unlicense-blue)](https://unlicense.org/)
 
 ## Description
-s'aldkfja
+Teammatez is Fortnite stat tracking and comparing website to settle who is better between you and your friends.
 
 ## Table Of Contents
 * [Install](#installs)
@@ -14,21 +14,21 @@ s'aldkfja
 * [Questions](#questions)
 
 ## Installation
-laskjdnf
+Node and Inquirer
 
 ## Usage
-![header image](./images/;lkasjndf)
+![header image](./images/teammatez.png)
 
 ## License 
-[![License](https://https://img.shields.io/badge/License-MIT-green)](https://opensource.org/licenses/MIT)
+[![License](https://img.shields.io/badge/License-Unlicense-blue)](https://unlicense.org/)
 
 ## Contributing
-a;lksdjhf
+None needed.
 
 ## Tests 
-a;lkdfj
+Test the expected outputs of statistics
 
 ## Questions 
-[GitHub: a;slkdfhj](https://github.com/a;slkdfhj) <br> 
-[Email: ;lakjshndf](mailto:;lakjshndf)
+[GitHub: willgresham34](https://github.com/willgresham34) <br> 
+[Email: willgresham34@gmail.com](mailto:willgresham34@gmail.com)
     

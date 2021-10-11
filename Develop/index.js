@@ -74,7 +74,7 @@ const questions = () =>
 // Function to write README file
 function writeToFile(res) {
 
-    const MIT ='[![License](https://https://img.shields.io/badge/License-MIT-green)](https://opensource.org/licenses/MIT)';
+    const MIT ='[![License](https://img.shields.io/badge/License-MIT-brightgreen)](https://opensource.org/licenses/MIT)';
     const GNU ='[![License](https://img.shields.io/badge/License-GNU-red)](https://www.gnu.org/licenses/licenses.html)';
     const Unlicense ='[![License](https://img.shields.io/badge/License-Unlicense-blue)](https://unlicense.org/)';
     const Apache ='[![License](https://img.shields.io/badge/License-Apache-blueviolet)](http://www.apache.org/licenses/)';
@@ -92,7 +92,7 @@ function writeToFile(res) {
         var displayLicense = MZP;
     }
 
-    fs.writeFile('README.md',
+    fs.writeFile('../README.md',
 
     `
 # ${res.title}

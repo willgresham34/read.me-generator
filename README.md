@@ -1,13 +1,14 @@
 
-# Teammatez
-[![License](https://img.shields.io/badge/License-Unlicense-blue)](https://unlicense.org/)
+# README.md Generator
+[![License](https://img.shields.io/badge/License-MIT-brightgreen)](https://opensource.org/licenses/MIT)
 
 ## Description
-Allows you to compare you and your friends Fortnite stats to show who is really better!
+Makes a descriptive README.md file for your project by having you answer a few simple questions.
 
 ## Table Of Contents
 * [Install](#installs)
 * [Usage](#usage)
+* [Demo](#demo)
 * [license](#license)
 * [Contributing](#contributing)
 * [Test](#test)
@@ -17,16 +18,19 @@ Allows you to compare you and your friends Fortnite stats to show who is really 
 Node and Inquirer
 
 ## Usage
-![header image](./images/teammatez.png)
+![Usage Img](./develop/images/readme.png)
 
+## Demo
+[![Demo Img](./develop/images/youtube.png)](https://www.youtube.com/watch?v=yfcX1FomZIg)
 ## License 
-[![License](https://img.shields.io/badge/License-Unlicense-blue)](https://unlicense.org/)
+[![License](https://img.shields.io/badge/License-MIT-brightgreen)](https://opensource.org/licenses/MIT)
 
 ## Contributing
-Finished Project.
+Project finished none needed.
 
 ## Tests 
-Test expected statistic outputs
+Test expected outputs on readme page.
+
 ## Questions 
 [GitHub: willgresham34](https://github.com/willgresham34) <br> 
 [Email: willgresham34@gmail.com](mailto:willgresham34@gmail.com)
