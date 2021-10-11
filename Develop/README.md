@@ -1,6 +1,6 @@
 
 # Teammatez
-The Unlicense
+[![License](https://img.shields.io/badge/License-Unlicense-blue)](https://unlicense.org/)
 
 ## Description
 undefined
@@ -14,19 +14,19 @@ undefined
 * [Questions](#questions)
 
 ## Installation
-node
+Node needs to be installed
 
 ## Usage
 ![header image](./images/teammatez.png)
 
 ## License 
-The Unlicense
+[![License](https://img.shields.io/badge/License-Unlicense-blue)](https://unlicense.org/)
 
 ## Contributing
-none needed'
+No contributions are necccessary at this time.
 
 ## Tests 
-test expected stats
+Can run test that expect certain statistic outputs
 
 ## Questions 
 [GitHub: willgresham34](https://github.com/willgresham34) <br> 

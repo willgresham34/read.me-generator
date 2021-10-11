@@ -1,9 +1,9 @@
-// TODO: Include packages needed for this application
+// Packages needed for this application
 const fs = require('fs');
 const inquirer = require('inquirer');
 
 
-// TODO: Create an array of questions for user input
+// Array of questions for user input
 const questions = () =>
  inquirer.prompt([
        {
@@ -71,14 +71,32 @@ const questions = () =>
 
     ]);
 
-// TODO: Create a function to write README file
+// Function to write README file
 function writeToFile(res) {
 
-   fs.writeFile('README.md',
+    const MIT = '[![License](https://https://img.shields.io/badge/License-MIT-green)](https://opensource.org/licenses/MIT)';
+    const GNU = '[![License](https://img.shields.io/badge/License-GNU-red)](https://www.gnu.org/licenses/licenses.html)';
+    const Unlicense = '[![License](https://img.shields.io/badge/License-Unlicense-blue)](https://unlicense.org/)';
+    const Apache ='[![License](https://img.shields.io/badge/License-Apache-blueviolet)](http://www.apache.org/licenses/)';
+    const MZP = '[![License](https://img.shields.io/badge/License-Mozilla%20Public-yellow)](https://www.mozilla.org/en-US/MPL/)';
+    let pickedLicense = res.license
+    if (pickedLicense === 'MIT') {
+        var displayLicense = MIT;
+    } else if (pickedLicense === 'GNU') {
+        var displayLicense = GNU;
+    } else if (pickedLicense === 'The Unlicense') {
+        var displayLicense = Unlicense
+    } else if (pickedLicense === 'Apache') {
+        var displayLicense = Apache;
+    } else {
+        var displayLicense = MZP;
+    }
+
+    fs.writeFile('README.md',
 
     `
 # ${res.title}
-${res.license}
+${displayLicense}
 
 ## Description
 ${res.Description}
@@ -98,7 +116,7 @@ ${res.installs}
 ![header image](./images/${res.usage})
 
 ## License 
-${res.license}
+${displayLicense}
 
 ## Contributing
 ${res.contribute}
@@ -111,38 +129,15 @@ ${res.test}
 [Email](mailto:${res.email})
     
 ` ,
-    (err) => err ? console.error(err) : console.log('Success!')
+    (err) => err ? console.error(err) : console.log('Success, your README.md has been made!')
     
     )
 }
 
-// TODO: Create a function to initialize app
+//Function to initialize app
 function init() {
     questions()
         .then(res => {
-            // const MIT = '[![License](https://https://img.shields.io/badge/License-MIT-green)](https://opensource.org/licenses/MIT)';
-            // const GNU = '[![License](https://img.shields.io/badge/License-GNU-red)](https://www.gnu.org/licenses/licenses.html)';
-            // const Unlicense = '[![License](https://img.shields.io/badge/License-Unlicense-blue)](https://unlicense.org/)';
-            // const Apache ='[![License](https://img.shields.io/badge/License-Apache-blueviolet)](http://www.apache.org/licenses/)';
-            // const MZP = '[![License](https://img.shields.io/badge/License-Mozilla%20Public-yellow)](https://www.mozilla.org/en-US/MPL/)';
-            // let pickedLicense = res.license
-            // if (pickedLicense === 'MIT') {
-            //     var displayLicense = MIT;
-            //     return displayLicense;
-            // } else if (pickedLicense === 'GNU') {
-            //     var displayLicense = GNU;
-            //     return displayLicense;
-            // } else if (pickedLicense === 'The Unlicense') {
-            //     var displayLicense = Unlicense
-            //     return displayLicense;
-            // } else if (pickedLicense === 'Apache') {
-            //     var displayLicense = Apache;
-            //     return displayLicense;
-            // } else {
-            //     var displayLicense = MZP;
-            //     return displayLicense;
-            // }
-            
             writeToFile(res);
         }) 
         .catch(err => console.error(err)) 
