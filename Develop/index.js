@@ -92,7 +92,7 @@ function writeToFile(res) {
         var displayLicense = MZP;
     }
 
-    fs.writeFile('README.md',
+    fs.writeFile('../README.md',
 
     `
 # ${res.title}

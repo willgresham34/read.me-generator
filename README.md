@@ -1,35 +1,34 @@
 
-    # test
-    MIT (Free use with preservation of copyright/license notices)
+# README.md Generator
+[![License](https://https://img.shields.io/badge/License-MIT-green)](https://opensource.org/licenses/MIT)
 
-    ## Description
-    undefined
+## Description
+Writes a well formed README.md by answering a few questions in you terminal!
 
-    ## Table Of Contents
-    [Install](#installs)
-    [Usage](#usage)
-    [license](#license)
-    [Contributing](#contributing)
-    [Test](#test)
-    [Questions](#questions)
+## Table Of Contents
+* [Install](#installs)
+* [Usage](#usage)
+* [license](#license)
+* [Contributing](#contributing)
+* [Test](#test)
+* [Questions](#questions)
 
-    ## Installation
-    tset
+## Installation
+Node and Inquirer 
 
-    ## Usage
-    test
+## Usage
+![header image](./images/)
 
-    ## License 
-    MIT (Free use with preservation of copyright/license notices)
+## License 
+[![License](https://https://img.shields.io/badge/License-MIT-green)](https://opensource.org/licenses/MIT)
 
-    ## Contributing
-    test
+## Contributing
+Project is complete. None needed.
 
-    ## Tests 
-    tset
+## Tests 
+Test for expected outputs on the README.md file
 
-    ## Questions 
-    [GitHub: tset](https://github.com/tset) <br> 
-    [Email](mailto:test)
-    
+## Questions 
+[GitHub: willgresham34](https://github.com/willgresham34) <br> 
+[Email: willgresham34@gmail.com](mailto:willgresham34@gmail.com)
     
