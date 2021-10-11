@@ -1,6 +1,6 @@
 
 # Teammatez
-[![License](https://img.shields.io/badge/License-Mozilla%20Public-yellow)](https://www.mozilla.org/en-US/MPL/)
+[![License](https://https://img.shields.io/badge/License-MIT-green)](https://opensource.org/licenses/MIT)
 
 ## Description
 Track you and your friends Stats in Fortnite to compete for bragging rights and end the who's better conversation!
@@ -14,19 +14,19 @@ Track you and your friends Stats in Fortnite to compete for bragging rights and 
 * [Questions](#questions)
 
 ## Installation
-Node needs to be Installed
+Node and inquirer
 
 ## Usage
 ![header image](./images/teammatez.png)
 
 ## License 
-[![License](https://img.shields.io/badge/License-Mozilla%20Public-yellow)](https://www.mozilla.org/en-US/MPL/)
+[![License](https://https://img.shields.io/badge/License-MIT-green)](https://opensource.org/licenses/MIT)
 
 ## Contributing
-None Contributions neccessary at this time.
+None needed.
 
 ## Tests 
-Test for expected statisitic outputs
+Test the expected outputs of statistics
 
 ## Questions 
 [GitHub: willgresham34](https://github.com/willgresham34) <br> 

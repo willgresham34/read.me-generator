@@ -1,9 +1,9 @@
 
-# README.md Generator
-[![License](https://https://img.shields.io/badge/License-MIT-green)](https://opensource.org/licenses/MIT)
+# Teammatez
+[![License](https://img.shields.io/badge/License-Unlicense-blue)](https://unlicense.org/)
 
 ## Description
-Writes a well formed README.md by answering a few questions in you terminal!
+Allows you to compare you and your friends Fortnite stats to show who is really better!
 
 ## Table Of Contents
 * [Install](#installs)
@@ -14,19 +14,19 @@ Writes a well formed README.md by answering a few questions in you terminal!
 * [Questions](#questions)
 
 ## Installation
-Node and Inquirer 
+Node and Inquirer
 
 ## Usage
-![header image](./images/)
+![header image](./images/teammatez.png)
 
 ## License 
-[![License](https://https://img.shields.io/badge/License-MIT-green)](https://opensource.org/licenses/MIT)
+[![License](https://img.shields.io/badge/License-Unlicense-blue)](https://unlicense.org/)
 
 ## Contributing
-Project is complete. None needed.
+Finished Project.
 
 ## Tests 
-Test for expected outputs on the README.md file
+Test expected statistic outputs
 
 ## Questions 
 [GitHub: willgresham34](https://github.com/willgresham34) <br> 
