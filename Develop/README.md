@@ -1,9 +1,9 @@
 
 # Teammatez
-[![License](https://img.shields.io/badge/License-Unlicense-blue)](https://unlicense.org/)
+[![License](https://img.shields.io/badge/License-Mozilla%20Public-yellow)](https://www.mozilla.org/en-US/MPL/)
 
 ## Description
-undefined
+Track you and your friends Stats in Fortnite to compete for bragging rights and end the who's better conversation!
 
 ## Table Of Contents
 * [Install](#installs)
@@ -14,21 +14,21 @@ undefined
 * [Questions](#questions)
 
 ## Installation
-Node needs to be installed
+Node needs to be Installed
 
 ## Usage
 ![header image](./images/teammatez.png)
 
 ## License 
-[![License](https://img.shields.io/badge/License-Unlicense-blue)](https://unlicense.org/)
+[![License](https://img.shields.io/badge/License-Mozilla%20Public-yellow)](https://www.mozilla.org/en-US/MPL/)
 
 ## Contributing
-No contributions are necccessary at this time.
+None Contributions neccessary at this time.
 
 ## Tests 
-Can run test that expect certain statistic outputs
+Test for expected statisitic outputs
 
 ## Questions 
 [GitHub: willgresham34](https://github.com/willgresham34) <br> 
-[Email](mailto:willgresham34@gmail.com)
+[Email: willgresham34@gmail.com](mailto:willgresham34@gmail.com)
     

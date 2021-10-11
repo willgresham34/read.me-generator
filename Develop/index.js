@@ -99,7 +99,7 @@ function writeToFile(res) {
 ${displayLicense}
 
 ## Description
-${res.Description}
+${res.description}
 
 ## Table Of Contents
 * [Install](#installs)
@@ -126,7 +126,7 @@ ${res.test}
 
 ## Questions 
 [GitHub: ${res.gitUser}](https://github.com/${res.gitUser}) <br> 
-[Email](mailto:${res.email})
+[Email: ${res.email}](mailto:${res.email})
     
 ` ,
     (err) => err ? console.error(err) : console.log('Success, your README.md has been made!')
