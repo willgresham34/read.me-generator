@@ -1,6 +1,6 @@
 
 # Teammatez
-[![License](https://img.shields.io/badge/License-Unlicense-blue)](https://unlicense.org/)
+![License](https://img.shields.io/badge/License-Unlicense-blue)(https://unlicense.org/)
 
 ## Description
 Allows you to compare you and your friends Fortnite stats to show who is really better!
