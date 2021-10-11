@@ -40,7 +40,7 @@ const questions = () =>
 
         {
             type: 'input',
-            message: 'Please add a photo to show usage of your application',
+            message: 'Please add a photo to show usage of your application using name and saving it too images folder:',
             name: 'usage',
         },
 
@@ -78,7 +78,7 @@ function writeToFile(res) {
 
     `
 # ${res.title}
-${displayLicense}
+${res.license}
 
 ## Description
 ${res.Description}
@@ -95,10 +95,10 @@ ${res.Description}
 ${res.installs}
 
 ## Usage
-${res.usage}
+![header image](./images/${res.usage})
 
 ## License 
-${displayLicense}
+${res.license}
 
 ## Contributing
 ${res.contribute}
@@ -120,24 +120,29 @@ ${res.test}
 function init() {
     questions()
         .then(res => {
-            const MIT = '[![License](https://https://img.shields.io/badge/License-MIT-green)](https://opensource.org/licenses/MIT)';
-            const GNU = '[![License](https://img.shields.io/badge/License-GNU-red)](https://www.gnu.org/licenses/licenses.html)';
-            const Unlicense = '[![License](https://img.shields.io/badge/License-Unlicense-blue)](https://unlicense.org/)';
-            const Apache ='[![License](https://img.shields.io/badge/License-Apache-blueviolet)](http://www.apache.org/licenses/)';
-            const MZP = '[![License](https://img.shields.io/badge/License-Mozilla%20Public-yellow)](https://www.mozilla.org/en-US/MPL/)';
-            let pickedLicense = res.license
-            console.log(pickedLicense);
-            if (pickedLicense === 'MIT') {
-                var displayLicense = MIT;
-            } else if (pickedLicense === 'GNU') {
-                var displayLicense = GNU;
-            } else if (pickedLicense === 'The Unlicense') {
-                var displayLicense = Unlicense
-            } else if (pickedLicense === 'Apache') {
-                var displayLicense = Apache;
-            } else {
-                var displayLicense = MZP;
-            }
+            // const MIT = '[![License](https://https://img.shields.io/badge/License-MIT-green)](https://opensource.org/licenses/MIT)';
+            // const GNU = '[![License](https://img.shields.io/badge/License-GNU-red)](https://www.gnu.org/licenses/licenses.html)';
+            // const Unlicense = '[![License](https://img.shields.io/badge/License-Unlicense-blue)](https://unlicense.org/)';
+            // const Apache ='[![License](https://img.shields.io/badge/License-Apache-blueviolet)](http://www.apache.org/licenses/)';
+            // const MZP = '[![License](https://img.shields.io/badge/License-Mozilla%20Public-yellow)](https://www.mozilla.org/en-US/MPL/)';
+            // let pickedLicense = res.license
+            // if (pickedLicense === 'MIT') {
+            //     var displayLicense = MIT;
+            //     return displayLicense;
+            // } else if (pickedLicense === 'GNU') {
+            //     var displayLicense = GNU;
+            //     return displayLicense;
+            // } else if (pickedLicense === 'The Unlicense') {
+            //     var displayLicense = Unlicense
+            //     return displayLicense;
+            // } else if (pickedLicense === 'Apache') {
+            //     var displayLicense = Apache;
+            //     return displayLicense;
+            // } else {
+            //     var displayLicense = MZP;
+            //     return displayLicense;
+            // }
+            
             writeToFile(res);
         }) 
         .catch(err => console.error(err)) 

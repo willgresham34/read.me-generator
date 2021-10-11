@@ -1,6 +1,6 @@
 
-# test
-MIT
+# Teammatez
+The Unlicense
 
 ## Description
 undefined
@@ -14,21 +14,21 @@ undefined
 * [Questions](#questions)
 
 ## Installation
-test
+node
 
 ## Usage
-test
+![header image](./images/teammatez.png)
 
 ## License 
-MIT
+The Unlicense
 
 ## Contributing
-test
+none needed'
 
 ## Tests 
-test
+test expected stats
 
 ## Questions 
-[GitHub: test](https://github.com/test) <br> 
-[Email](mailto:test)
+[GitHub: willgresham34](https://github.com/willgresham34) <br> 
+[Email](mailto:willgresham34@gmail.com)
     
